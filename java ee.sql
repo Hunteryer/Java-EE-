@@ -1,0 +1,1 @@
+SELECT * FROM school.s_student_homework;
