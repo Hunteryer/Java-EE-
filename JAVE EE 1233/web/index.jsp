@@ -17,7 +17,7 @@
     <h2>教师</h2>
     <li><a href="addHomework.jsp">发布作业</a></li>
     <li><a href="addStudent.jsp">添加学生</a></li>
-    <li><a href="${pageContext.request.contextPath}/showHomework">查询作业</a></li>
+    <li><a href="${pageContext.request.contextPath}/showHomework">查看作业</a></li>
     <h2>学生</h2>
     <li><a href="${pageContext.request.contextPath}/allHomework">提交作业</a></li>
   </ul>

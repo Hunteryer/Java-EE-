@@ -44,7 +44,7 @@
             <td width="10%"><%=homework.getId()%></td>
             <td width="20%" style="word-break: break-all;word-wrap: break-word"><%=homework.getTitle()%></td>
             <td width="60%" style="word-break: break-all;word-wrap: break-word"><%=homework.getContent()%></td>
-            <td width="10%"><input type="button" width="100%" value="提交作业" onclick="show(<%=homework.getId()%>)"> </td>
+            <td width="10%"><input type="button" width="100%" value="提交" onclick="show(<%=homework.getId()%>)"> </td>
         </tr>
 
         <%

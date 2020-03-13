@@ -29,20 +29,20 @@
         <tr bgcolor="deepskyblue">
             <th width="20%">作业编号</th>
             <th width="70%" style="word-break: break-all;word-wrap: break-word">作业标题</th>
-            <th width="10%">详细信息</th>
+            <th width="10%">作业详细</th>
         </tr>
 
         <%
             List<Homework> list = (List<Homework>)request.getAttribute("list");
             if (list == null || list.size() <= 0){
-//                out.print("None data");
+
             }else {
                 for (Homework homework : list) {
         %>
         <tr>
             <td><%=homework.getId()%></td>
             <td><%=homework.getTitle()%></td>
-            <td><input type="button" value="详细信息" onclick="show(<%=homework.getId()%>)"> </td>
+            <td><input type="button" value="查看" onclick="show(<%=homework.getId()%>)"> </td>
         </tr>
 
         <%

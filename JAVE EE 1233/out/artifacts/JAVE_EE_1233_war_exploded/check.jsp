@@ -19,13 +19,13 @@
         if (isOK){
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px; color: blue"><%="添加成功!"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px; color: blue"><%="添加成功!"%></p>
 
 <%
 }else{
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px;color: red"><%="添加失败!"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px;color: red"><%="添加失败!"%></p>
 
 <%
     }
@@ -33,13 +33,13 @@
     if (isOK){
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px; color: blue"><%="添加成功!"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px; color: blue"><%="添加成功!"%></p>
 
 <%
 }else{
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px;color: red"><%="已有学生信息!无法添加！"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px;color: red"><%="已有学生信息!无法添加！"%></p>
 
 <%
     }
@@ -47,18 +47,19 @@
     if (isOK){
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px; color: blue"><%="提交成功!"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px; color: blue"><%="提交成功!"%></p>
 
 <%
 }else {
 %>
 
-<p style="margin: 50px; font-family: Arial; font-size: 50px; color: red"><%="提交失败!"%></p>
+<p align="center" style="margin: 50px; font-family: Arial; font-size: 30px; color: red"><%="提交失败!"%></p>
 
 <%
         }
     }
 %>
-<a href="index.jsp" style="margin: 65px">确认</a>
+<p align="center">
+    <a href="index.jsp" style="margin: 65px">确认</a></p>
 </body>
 </html>

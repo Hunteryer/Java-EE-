@@ -17,7 +17,6 @@ public class StudentHomeworkJdbc {
 
     /**
      * 从s_student_homework表读取指定作业id 的所有记录，即某次作业的所有提交记录
-     * @param id 指定的作业id
      * @return 返回结果list
      */
     public static List<StudentHomework> selectAll(String id) {

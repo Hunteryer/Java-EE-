@@ -10,11 +10,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>添加新作业</title>
+    <title>发布作业</title>
 </head>
 <body>
 <div align="center">
-    <h2>新作业</h2>
+    <h2>发布作业</h2>
     <form action="${pageContext.request.contextPath}/addHomework" method="post">
         <table style="line-height: 40px">
             <tr>
@@ -27,7 +27,7 @@
             </tr>
 
             <tr align="center">
-                <th><input type="reset" value="清空"></th>
+                <th><input type="reset" value="重置"></th>
                 <td><input type="submit" value="提交"> </td>
             </tr>
         </table>

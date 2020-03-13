@@ -14,7 +14,7 @@
 </head>
 <body>
 <div align="center">
-    <h2>新学生</h2>
+    <h2>添加学生</h2>
     <form action="${pageContext.request.contextPath}/addStudent" method="post">
         <table style="line-height: 40px">
             <tr>
@@ -27,7 +27,6 @@
             </tr>
 
             <tr align="center">
-                <th><input type="reset" value="清空"></th>
                 <td><input type="submit" value="提交"> </td>
             </tr>
         </table>

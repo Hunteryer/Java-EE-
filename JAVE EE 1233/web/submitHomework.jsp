@@ -40,7 +40,7 @@
                 <td width="70%"><textarea name="content"  style="font-family: Arial; width: 100%" rows="10" required></textarea></td>
             </tr>
             <tr style="border: none">
-                <td align="center"><input type="reset" value="清空"></td>
+                <td align="center"><input type="reset" value="重置"></td>
                 <td align="center"><input type="submit" value="提交"></td>
             </tr>
         </table>

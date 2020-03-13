@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>作业提交详细信息</title>
+    <title>作业详细信息</title>
 </head>
 <body>
 <h2 align="center" style="margin: 50px">作业详细内容</h2>
